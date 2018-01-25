@@ -13,6 +13,10 @@
     color: #00acc1;
 }
 
+li {
+    display: inline;
+}
+
 nav ul a,
 nav .brand-logo {
     color: #444;
@@ -76,4 +80,18 @@ footer.page-footer {
 
 #rick {
     min-height: 175px;
+}
+
+#para1 {
+    min-height: 500px;
+}
+
+a.brand-logo {
+    color: #fafafa;
+    margin-left: 12px;
+}
+
+#zonBtn:hover {
+    text-decoration: none;
+    text-decoration-color: none;
 }
