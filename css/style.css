@@ -10,7 +10,7 @@
 }
 
 .fa-2x:hover {
-    color: #00acc1;
+    color: #00bcd4;
 }
 
 li {
@@ -54,6 +54,9 @@ p {
 @media only screen and (max-width: 600px) {
     #index-banner .section {
         top: 0;
+    }
+    .card {
+        height: 45vh;
     }
 }
 
