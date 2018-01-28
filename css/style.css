@@ -1,3 +1,7 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
 #devIcon {
     font-size: 4rem;
     margin: 1rem;
@@ -10,7 +14,7 @@
 }
 
 .fa-2x:hover {
-    color: #00bcd4;
+    color: #b2ebf2;
 }
 
 li {
@@ -97,4 +101,8 @@ a.brand-logo {
 #zonBtn:hover {
     text-decoration: none;
     text-decoration-color: none;
+}
+
+.portLink {
+    color: #00bcd4 !important;
 }
