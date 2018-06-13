@@ -9,12 +9,8 @@ body {
 }
 
 .fa-2x {
-    margin: 6px;
+    margin: 5px;
     color: white;
-}
-
-.fa-2x:hover {
-    color: #b2ebf2;
 }
 
 li {
@@ -24,10 +20,15 @@ li {
 nav ul a,
 nav .brand-logo {
     color: #444;
+    font-weight: 400;
 }
 
 p {
     line-height: 2rem;
+}
+
+.navbar-fixed {
+    opacity: 50%;
 }
 
 .button-collapse {
@@ -59,34 +60,31 @@ p {
     #index-banner .section {
         top: 0;
     }
-    .card {
+    /* .card {
         height: 45vh;
-    }
+    } */
 }
 
-.icon-block {
+/* .icon-block {
     padding: 0 15px;
 }
 
 .icon-block .material-icons {
     font-size: inherit;
-}
+} */
 
 footer.page-footer {
     margin: 0;
 }
 
-.card {
+/* .card {
     height: 35vh;
-}
+} */
 
 #check,
-#zon {
-    max-height: 175px;
-}
-
+#zon,
 #rick {
-    min-height: 175px;
+    height: 170px;
 }
 
 #para1 {
