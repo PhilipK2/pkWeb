@@ -7,9 +7,16 @@ body {
     margin: 1rem;
     color: #424242;
 }
-
 .fa-2x {
-    margin: 5px;
+    color: #444;
+}
+.fa-3x {
+    margin: 2px;
+    padding: 4px;
+    color: #444;
+}
+
+.fa-3x:hover {
     color: white;
 }
 
@@ -25,14 +32,6 @@ nav .brand-logo {
 
 p {
     line-height: 2rem;
-}
-
-.navbar-fixed {
-    opacity: 50%;
-}
-
-.button-collapse {
-    color: #26a69a;
 }
 
 .parallax-container {
@@ -60,26 +59,10 @@ p {
     #index-banner .section {
         top: 0;
     }
-    /* .card {
-        height: 45vh;
-    } */
 }
-
-/* .icon-block {
-    padding: 0 15px;
-}
-
-.icon-block .material-icons {
-    font-size: inherit;
-} */
-
 footer.page-footer {
     margin: 0;
 }
-
-/* .card {
-    height: 35vh;
-} */
 
 #check,
 #zon,
@@ -94,11 +77,6 @@ footer.page-footer {
 a.brand-logo {
     color: #fafafa;
     margin-left: 12px;
-}
-
-#zonBtn:hover {
-    text-decoration: none;
-    text-decoration-color: none;
 }
 
 .portLink {
